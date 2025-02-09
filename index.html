@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Interstellar</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+
+<body class="main">
     <div class="container">
         <div class="formulario">
             <h1>
                 Formulario para ir a ver Estrellas
             </h1>
             <form>
-                
+
                 <label for="image">sube tu avatar</label>
-                <input type="file" src="image" id="image"accept="image/*" required>
+                <input type="file" src="image" id="image" accept="image/*" >
 
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="name" required>
@@ -29,19 +31,29 @@
                 <label for="gender">Tu genero es</label>
                 <select name="gender" id="gender" required>
                     <option value="male">Hombre</option>
-                        <option value="female">Mujer</option>
-                        <option value="other">otro</option>
+                    <option value="female">Mujer</option>
+                    <option value="other">otro</option>
                 </select>
 
                 <label for="age">Tu cumpleaños</label>
                 <input type="date" name="age" id="age">
 
-                <button type="submit" class="button">Mirar las estrellas</button>
+                <section class="displaybutton">
+                    <button class="button">Enviar</button>
 
-    
+                <a href="estrellas.html"  class="button">
+                    Mirar las Estrellas
+                </a>
+                </section>
+
+                
+
+
+
             </form>
         </div>
-        
+
     </div>
 </body>
+
 </html>
