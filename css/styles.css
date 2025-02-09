@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&display=swap');
+
+body {
+    background-image: url("../img/beautiful-shining-stars-night-sky.jpg");
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-size: cover;
+}
+
+.container {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f0efeb;
+    width: 90%;
+    box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    width: 100%;
+}
+
+.formulario{
+    border-style:dotted;
+    border-width: 6px;
+    border-color: #99c1de;
+    padding: 2rem;
+}
+
+
+h1 {
+    color: #99c1de;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input:hover{
+    background-color: #c6def1;
+}
+
+imput,select{
+    margin-bottom: 1rem;
+    padding: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#99c1de ;
+    border-radius: 4px;
+    font-size: 1rem;
+}
